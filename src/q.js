@@ -217,7 +217,7 @@ const q = [
 
     getAge();
     `,
-    option: ["21", "undefined", "ReferenceError", "TypeError"],
+    option: ["25", "undefined", "ReferenceError", "TypeError"],
     answer: "C",
   },
   {

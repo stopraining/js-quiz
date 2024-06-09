@@ -97,6 +97,8 @@ export default {
 body {
   background-color: #01142f;
   font-size: 20px;
+  overflow-y: scroll;
+  /* padding-right: 5px; */
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -139,5 +141,18 @@ button.start-btn:hover {
   background-color: #117243;
   box-shadow: 0 5px #116315;
   transform: translateY(4px);
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #01142f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d55b3e;
+  border-radius: 20px;
 }
 </style>
